@@ -1,0 +1,82 @@
+#contenedorPrincipal {
+    width: 100%;
+    height: auto;
+    background-image: url(../login/images/imagenFondo.jpg);
+    flex-direction: column;
+    display: flex;
+    padding: 60px;
+    align-items: center;
+
+}
+
+#contenedorLogin {
+    width: 30%;
+    min-width: 300px; 
+    max-width: 600px; 
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 6px;
+    background-color: rgba(239, 233, 233, 0.4);
+
+    padding: 20px;
+}
+
+#texto1{
+    font-size: 34px;
+    color:antiquewhite; 
+
+}
+
+#texto{
+    text-align: center;
+    font-size: 23px;
+    color: #7adab4; 
+    font-weight: bold;
+}
+
+#correoLabel{
+    text-align: left;
+    padding-left: 18px;
+}
+
+#passwordLabel{
+    text-align: left;
+    padding-left: 18px;  
+}
+
+#olvidoContraseña{
+    text-align: center;
+    font-size: small;
+}
+
+#crearCuenta{
+    text-align: center;
+    font-size: small;
+}
+
+#subrayadofeo{
+    text-decoration: none;
+    color: #7adab4; 
+}
+
+.custom-button {
+    --background: #7adab4; /* Cambia esto por el color que desees */
+    --color: #000000; /* Color del texto */
+    text-transform: capitalize;
+    
+}
+
+
+ion-input {
+    --background: #ffffff; 
+    --color: #000000;
+    --placeholder-color: #000000; 
+
+
+}
+
+.item-native{
+    background: #7adab4 !important    ;
+}
